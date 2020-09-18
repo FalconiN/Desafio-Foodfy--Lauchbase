@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root{
+    --color-primary:
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 940px;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.container img{
+    padding-left: 140px;
+    
+}
+
+.container a,
+.container a.receitas{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 3.55rem;
+}
+
+.container a{
+    padding-left: 10.2rem;
+}
+
+.container a.receitas {
+    padding-left: 2.5rem;
+}
+
+h3{
+    font-size: 24px;
+    margin-left: 300px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.sobre{
+    padding-left: 300px;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;  
+}
+
+.page-sobre{
+    font-size: 24px;
+    margin-left: 300px;
+    margin-top: 20px auto;
+}
+.sobre .primary,
+.sobre .secondary{
+    margin-top: 18px;
+    padding-right: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 30px;
+    background: #EEEEEE;
+
+    margin-top: 70px;
+}
